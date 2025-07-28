@@ -5,7 +5,7 @@ from influxdb_client import InfluxDBClient, Point, WritePrecision
 
 # InfluxDB connection settings
 url = "http://localhost:8086"
-token = "K2gLIVr56Rg8TygeYikSBCKYJFiD0GayeYt7QKGdPR-uzXuy1YeYCDEbStbyR9MbNqXq-2ZLw5WAe_2Xig3sNg=="
+token = "TUIki1UCLE-S282uDbxhJxGU06mREE8NMi7sQQvX9w_wvuO_MzmdyLKBF8JVt-6yvg0tjyq1d2AZueXEHvOO4Q=="
 org = "TEST"
 bucket = "TEST"
 

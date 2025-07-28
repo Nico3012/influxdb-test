@@ -5,7 +5,7 @@ from datetime import datetime
 
 # InfluxDB connection settings
 url = "http://localhost:8086"
-token = "K2gLIVr56Rg8TygeYikSBCKYJFiD0GayeYt7QKGdPR-uzXuy1YeYCDEbStbyR9MbNqXq-2ZLw5WAe_2Xig3sNg=="  # Must match DOCKER_INFLUXDB_INIT_PASSWORD
+token = "TUIki1UCLE-S282uDbxhJxGU06mREE8NMi7sQQvX9w_wvuO_MzmdyLKBF8JVt-6yvg0tjyq1d2AZueXEHvOO4Q=="  # Must match DOCKER_INFLUXDB_INIT_PASSWORD
 org = "TEST"                    # Must match DOCKER_INFLUXDB_INIT_ORG
 bucket = "TEST"                 # Must match DOCKER_INFLUXDB_INIT_BUCKET
 
