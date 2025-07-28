@@ -16,7 +16,7 @@ measurement = "random_measurement"
 
 for _ in range(100):
     value = random.uniform(0, 100)
-    point = Point(measurement).field("value", value).time(datetime.utcnow(), WritePrecision.S)
+    point = Point(measurement).field("value", value).time(datetime.utcnow(), WritePrecision.MS)
     write_api.write(bucket=bucket, org=org, record=point)
     print(f"Inserted value: {value}")
     time.sleep(0.1)
